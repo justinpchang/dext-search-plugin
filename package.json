@@ -1,0 +1,21 @@
+{
+  "name": "dext-search-plugin",
+  "version": "0.1.0",
+  "description": "Dext plugin to search Google.",
+  "keywords": [
+    "dext",
+    "dext-plugin",
+    "google",
+    "search"
+  ],
+  "main": "index.js",
+  "author": "Justin Chang <justin.p.chang@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinpchang/dext-search-plugin"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "urlencode": "^1.1.0"
+  }
+}
