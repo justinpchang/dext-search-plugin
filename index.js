@@ -3,13 +3,20 @@
 const urlencode = require('urlencode');
 
 module.exports = {
+    keyword: 'search',
     action: 'openurl',
-    query: (query) => {
+    helper: {
+      title: 'Open Google search result.',
+      subtitle: 'Example: search dext',
+      icon: {
+        path: './icon.png',
+      },
+    },
+    query: (q) => {
         const items = [];
-        const searchTerm = query.slice(0);
-        const url = 'https:\/\/www.google.com/search?q=' + urlencode(searchTerm);
+        const url = 'https:\/\/www.google.com/search?q=' + urlencode(q);
         items.push({
-            title: `Search Google for ${searchTerm}`,
+            title: `Search Google for ${q}`,
             subtitle: 'Open in browser',
             arg: url,
             icon: {
