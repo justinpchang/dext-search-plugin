@@ -6,7 +6,7 @@ module.exports = {
     action: 'openurl',
     query: (query) => {
         const items = [];
-        const searchTerm = query.slice(6);
+        const searchTerm = query.slice(0);
         const url = 'https:\/\/www.google.com/search?q=' + urlencode(searchTerm);
         items.push({
             title: `Search Google for ${searchTerm}`,
