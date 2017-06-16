@@ -1,18 +1,18 @@
-# dext-search-plugin
+# dext-system-plugin
 
-> [Dext](https://github.com/vutran/dext) plugin to search [Google](https://google.com).
+> [Dext](https://github.com/vutran/dext) plugin to display system and battery info.
 
 ## Install
 
 ```bash
-$ dpm install dext-search-plugin
+$ dpm install dext-system-plugin
 ```
 
 *Requires [Dext](https://github.com/vutran/dext).*
 
 ## Usage
 
-In Dext, type `search`, then your query.
+In Dext, type `system` or `battery`.
 
 ## Related
 
